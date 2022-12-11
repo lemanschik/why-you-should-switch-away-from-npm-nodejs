@@ -190,3 +190,9 @@ for example what if we could search a filesystem in a fast way via a index datab
 That is possible on all operating systems linux, windows, android, macos, browsers, 
 but we implement it always over the filesystem our self because we are programmers right? we can do that we are cool right?
 
+you can observer the problem here:
+- http://www.modulecounts.com/
+
+it shows module counts on diffrent registries in fact v8 is a Operating System by default so it can replace all that modules by default with better build once it reduces the overall ecosystem of the web to less code by simply be used as universal declarativ dynamic build system ad web scale.
+
+we aim not less as deprecation of millions of open source projects and working on improovements to the parts that matter that are mainly hardware drivers that then get exposed via memory addresses any way so something that a none low level driver provider needs to care about. 
