@@ -113,3 +113,15 @@ Const, Functions, Data, Polymorphism, Managed refs, Streams, Declarative data ma
 If you can avoid it never touch data never create a own state only your user creates state and there again never create own state the software that the user already uses creates state.
 
 never ruin data do not touch it view it if you need it else let it as is that is fundamental importent do not code a framework do not do abstractions your ECMAScript Engine offers all needed abstractions to handle the data without touching or moving it.
+
+
+
+# Declarativ Data Manipulation in ECMAScript
+As ECMAScript is a declartiv language based on JSON which is based on UTF-8 its binary Buffer Representation is UInt8Array containing UTF-8 chars represented as Integers and additional view methods for the underlaying data which always stays UInt8 internal.
+
+That leads us to the following observations. Everything in ECMAScript is basic UTF-8 Formated String Content as a Type. The Same is true for most of the source code that exists on the web if it is written in any country that depends on UTF-8 in the most used operating systems and software products thats the case even mostly in china. 
+
+So we now come up with the idea what if we let ECMAScript write our source code in a declarativ way no matter what language it is written in and export that as module that we can compose with other software that uses the same principles?
+
+## Examples:
+WiP
