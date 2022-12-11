@@ -74,3 +74,42 @@ It is simple but not easy again if you do not write code it has zero bugs in fac
 - No External Servers or Software Providers needed to build and run our code. We can directly code and execute in dev and production.
 - No Need for a CDN in fact we can create our own cdn out of the users it self and only offer some additional entrypoints into the system.
 - No need for virtual networks and abstractions over networking secure networking by design fully audit and monitor able.
+
+
+## How do we get that i want it?
+
+#### What matters in software is: 
+what matters in writing software not the look and feel of the experience writing the code or the cultural implications of it.
+- does the software do what is supposed to do? 
+- Is it of high quality? 
+- Can we rely on it? 
+- Can problems be fixed along the way? 
+- Can requirements change over time? 
+
+### The benefits of simplicity are: 
+ease of understanding, ease of change, ease of debugging, flexibility, modules are pure functions that are recomposeable into a component. The mantra is alwas composition over inharitance. Never create a class or structure for data always view the data in your way.
+
+### Complex constructs: 
+State, Object, Methods, Syntax, Inheritance, Switch/matching, Vars, Imperative loops, Actors, ORM, Conditionals.
+
+### Simple constructs: 
+Const, Functions, Data, Polymorphism, Managed refs, Streams, Declarative data manipulation, Rules, Consistency.
+
+### Build simple systems by: 
+- Abstracting - design 
+  - by answering questions related to 
+    - what, 
+    - who, 
+    - when, 
+    - where, 
+    - why,
+    - how,
+- Choosing constructs that generate simple artifacts like modules 
+  - that do not reference other modules without a unified resolver method 
+    - that produces static in memory references...
+- Simplify by encapsulation via composition of functions and streams.
+
+### do not ruin the data
+If you can avoid it never touch data never create a own state only your user creates state and there again never create own state the software that the user already uses creates state.
+
+never ruin data do not touch it view it if you need it else let it as is that is fundamental importent do not code a framework do not do abstractions your ECMAScript Engine offers all needed abstractions to handle the data without touching or moving it.
