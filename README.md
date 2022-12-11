@@ -36,6 +36,7 @@ I identified overlapping replication all over we did ruin in fact software devel
   - [ ] States that not using yarn with esbuild is 10x faster again indicator for abstraction overhead.
     - [ ] https://esbuild.github.io/getting-started/#yarn-pnp
     - [ ] And no esbuild is also not simple it also is overhead.
+    - [ ] It is coded in go which adds the go vm wich is again not needed ECMAScript correct used outperforms go by 10x minimum!
   - [ ] .......
 
 So the conclusion is we all agree and see a problem what we do not agree on how to solve it and or we did not all together identfied the root cause so i did investigate.
