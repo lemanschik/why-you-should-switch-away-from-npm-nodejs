@@ -190,6 +190,13 @@ for example what if we could search a filesystem in a fast way via a index datab
 That is possible on all operating systems linux, windows, android, macos, browsers, 
 but we implement it always over the filesystem our self because we are programmers right? we can do that we are cool right?
 
+here i spotted first time the issue when using nodejs compared to the operating system
+- https://stackoverflow.com/questions/53125592/node-fs-readdir-freezing-in-folders-with-too-many-files/54307500#54307500
+
+but i did not understood that i found there a problem and a general antipattern called easy and easy is not simple everything must be simple it is a core need to produce stable software that is self documented and understand able so fast fixable and fullfills our criterias.
+
+
+## Size of the problem
 you can observer the problem here:
 - http://www.modulecounts.com/
 
@@ -198,3 +205,4 @@ it shows module counts on diffrent registries in fact v8 is a Operating System b
 we aim not less as deprecation of millions of open source projects and working on improvements to the parts that matter that are mainly hardware drivers that then get exposed via memory addresses any way so something that a none low level driver provider needs to care about. As Also More fine grained Scheduler Implementations for web scale clocking virtual machines. Streams are the ultimate way to abstract async data flows they solve the so called locking issues of a distributed context that async produces values. 
 
 as also management concepts like IAM services in clouds in a more user frindly way to over better security.
+
