@@ -5,7 +5,7 @@ This is a Collection of NodeJS NPM Related Arguments against the usage of NodeJS
 you can observer the problem here:
 - http://www.modulecounts.com/
 
-it shows module counts on diffrent registries in fact v8 is a Operating System by default so it can replace all that modules by default with better build once it reduces the overall ecosystem of the web to less code by simply be used as universal declarativ dynamic build system ad web scale.
+it shows module counts on diffrent registries in fact v8 is a Operating System by default so it can replace all that modules by default with better build once it reduces the overall ecosystem of the web to less code by simply be used as universal declarativ dynamic build system at web scale.
 
 we aim not less as deprecation of millions of open source projects and working on improvements to the parts that matter that are mainly hardware drivers that then get exposed via memory addresses any way so something that a none low level driver provider needs to care about. As Also More fine grained Scheduler Implementations for web scale clocking virtual machines. Streams are the ultimate way to abstract async data flows they solve the so called locking issues of a distributed context that async produces values. 
 
