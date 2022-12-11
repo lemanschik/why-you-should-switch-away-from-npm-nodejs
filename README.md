@@ -1,6 +1,18 @@
 # why-you-should-switch-away-from-npm-nodejs
 This is a Collection of NodeJS NPM Related Arguments against the usage of NodeJS and NPM as also offering better alternatives.
 
+## Size of the problem
+you can observer the problem here:
+- http://www.modulecounts.com/
+
+it shows module counts on diffrent registries in fact v8 is a Operating System by default so it can replace all that modules by default with better build once it reduces the overall ecosystem of the web to less code by simply be used as universal declarativ dynamic build system ad web scale.
+
+we aim not less as deprecation of millions of open source projects and working on improvements to the parts that matter that are mainly hardware drivers that then get exposed via memory addresses any way so something that a none low level driver provider needs to care about. As Also More fine grained Scheduler Implementations for web scale clocking virtual machines. Streams are the ultimate way to abstract async data flows they solve the so called locking issues of a distributed context that async produces values. 
+
+as also management concepts like IAM services in clouds in a more user frindly way to over better security.
+
+the above mentioned module counts when compared to all other languages shows that we created a gigantic mess we destroyed the web as also the whole development process via npm over git. 
+
 ## First of all what are the alternativs?
 Usage of directly git and the git protocol is the key. It also saves you from bundling and packageing issues its all built in already. As the most people prefer easy over simple and the amount of developers exponential growth there is a gap between knowleg transfer from old expirenced to Young Coders or Coders that got teached by Coders that do not had time to care for the Bigger Picture. 
 
@@ -205,13 +217,5 @@ but i did not understood that i found there a problem and a general antipattern 
 so i did not understood fully my self that this implementation that i did would be the more clever i tought it is a workaround. 
 but it is not as it is simple it uses the operating system via find to get a result directly with kernel optimization in a stream that pattern can be directly used in all other environments no matter how you call the module that implements that call it filesystem-lookup.js?=pattern or something like that this has zero context switching so again simple we do not touch the data we simple get our result in one turn and stream that.
 
-## Size of the problem
-you can observer the problem here:
-- http://www.modulecounts.com/
 
-it shows module counts on diffrent registries in fact v8 is a Operating System by default so it can replace all that modules by default with better build once it reduces the overall ecosystem of the web to less code by simply be used as universal declarativ dynamic build system ad web scale.
-
-we aim not less as deprecation of millions of open source projects and working on improvements to the parts that matter that are mainly hardware drivers that then get exposed via memory addresses any way so something that a none low level driver provider needs to care about. As Also More fine grained Scheduler Implementations for web scale clocking virtual machines. Streams are the ultimate way to abstract async data flows they solve the so called locking issues of a distributed context that async produces values. 
-
-as also management concepts like IAM services in clouds in a more user frindly way to over better security.
 
