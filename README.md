@@ -30,6 +30,7 @@ I identified overlapping replication all over we did ruin in fact software devel
   - [ ] stackblitz browser-node webcontainer
   - [ ] serverless and serverless functions
   - [ ] grpc proxys virtual networking all the network issues.
+  - [ ] cloud providers and ci and devOps.
   - [ ] .......
 
 So the conclusion is we all agree and see a problem what we do not agree on how to solve it and or we did not all together identfied the root cause so i did investigate.
@@ -56,3 +57,12 @@ The title says it Databases are historical got designed to implement caching for
 you will find a lot of articles all over the internet where people do replace databases via json it self on the filesystem for example to speed up development and also production speed. As that gave them also online caching like a cdn for the database querys. I will write a extra book about how to design a ECMAScript written Database but this is only about solving the packaging issues and shows you as much of the database knowlege to handle your build inside your distributed graph database that is in fact what your ECMAScript Engine is it offers a core implementation of btree but for Memory Pointers.
 
 you maybe at this point observed we need no registry as our application is a btree programable memory grid database already from the strart till it exits. It is like Redis and Oracle Database and Couchbase Kubernets GlusterFS, Git, but on steroids. As it is dynamical program able via append only logging and memory pointers. All this is abstracted into the ECMAScript Syntax and the Context Linking is done via import export statements in the ECMAScript files.
+
+So as The Import Export statements to produce static analyzeable links this implements the fundament for Capability based Protocols a concept where a Application only passes down a handle to the underleying component which inherent has the ability to do security related stuff like rule checking and so on. 
+
+All the cloud providers and implementations are ways to lock you into tooling that is easy but not simple in fact it gets complex so interwinded when you combine more and more easyy tools.
+
+this teaches you how to keep you code simple so that you need no additional stuff to run your main code and so your software directly. That gives you all the benefits of the above mentioned tools and even solves all problems that they have.
+
+## The best code is the one that you did never write!
+It is simple but not easy again if you do not write code it has zero bugs in fact the only thing that a normal and even most senior coders can do with data is Ruin it so we simply stop doing that and get all the benefits out of the box.
