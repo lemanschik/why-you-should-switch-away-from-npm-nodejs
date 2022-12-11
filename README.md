@@ -28,6 +28,7 @@ I identified overlapping replication all over we did ruin in fact software devel
   - [ ] pnpm 
   - [ ] webpack
   - [ ] stackblitz browser-node webcontainer
+  - [ ] serverless and serverless functions
   - [ ] .......
 
 So the conclusion is we all agree and see a problem what we do not agree on how to solve it and or we did not all together identfied the root cause so i did investigate.
