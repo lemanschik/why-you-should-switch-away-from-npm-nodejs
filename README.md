@@ -166,3 +166,27 @@ So we now come up with the idea what if we let ECMAScript write our source code 
 
 ## Examples:
 WiP
+
+
+
+## Migration Strategies
+
+### Typescript 
+can produce module ESNext target ESNext and your most time fine when using that result with rollup today you get a hashed reference in the build cache that you can use for a build grid like goma. or anything else that builds stuff at scale.
+
+The most essential parts are components systems like jsx which replicate ECMAScript tagged template strings and over complicates interiop remember leave data untouched. 
+
+### CJS
+needs to get transpiled to esm and hashed then partial converted there exists not much usefull software that follows the simple design patterns anyway. They are all wrappers to create easy software that solves problems of easy software. And Templating systems which are all replace able by simple taggedTemplate strings supplyed by core ECMAScript.
+
+- Code is most of the time a UTF-8 String 
+- you want to apply sring manipulation to it in a declarativ way and ecmascript is a declarativ language that offers some dynamic sugar while still is static analyzeable.
+
+### NodeJS nativ modules
+Most exist out of the fact to produce easy software again they are not needed most of the time and if they are needed then they get offered by the underlaying Operating System which is accessable via the filesystem already observation the engine it self can some how load and execute code for it self to run and load dynamic modules we can use directly the same interfaces that any runtime uses to create modules.
+
+for example what if we could search a filesystem in a fast way via a index database that gives us sub millisecund results without iterating over directorys? What if we would call via the shell that executes our runtime or any other filebased api the Operating system to return exactly the result of a query to that database? eg to find all possible existing node_modules folders in a single call and not iterating over and over?
+
+That is possible on all operating systems linux, windows, android, macos, browsers, 
+but we implement it always over the filesystem our self because we are programmers right? we can do that we are cool right?
+
