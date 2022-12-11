@@ -41,3 +41,10 @@ So lets sum up what we learned npm is a meta file for the nodejs loader if you u
 ## So above showed us the main problem is we apply the wrong patterns to ECMAScript Module creation and design.
 Lets learn how to implement it in a way that it works everywhere with and without NodeJS in the middle. To Incremental move away from it.
 
+As you want to build a large software stack you need to understand how scaling works in deployment processes and build processes as also some fundamentals about distributed systems and processing it self. 
+
+the fundamentals of large scale processing are so called transactions applyed via append only logging streams. This are the fundamentals of every cloud bus that exists and that is for good reason. It gives us benefits and saves us from near all possible known errors. That why it is the core of every clusted database or other clustred structures so distributed computing at its core is transaction logging in a inmutable append only log style. That gets consumed by the participlants peers or what ever wants to use that. 
+
+You can read about all this topics a lot of books but you do not need to if you simply folow me here and simply save in your head the above written maybe read it more then once to fully understand that as you got often told that this is not possible you maybe have blockers in your mind that tell you that this is not true and so you maybe not fully understand it.
+
+# when you fully understood until this point your ready to deprecate docker libcontainer kubernetes any distributed builds and also packaging. 
