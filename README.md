@@ -51,7 +51,7 @@ The above implements a so called universal modular resolve load instantiation ho
 
 this is a full http server can be used in the browser or any where else socket represents any stream implementation that emits on data can be anything that emits buffer so UInt8Array that is true for any nativ implementations anyway. 
 http-including-json-post-support.js
-```
+```js
 socket.on('data',data=>{
         const [requestHeader, ...bodyContent] = data.toString().split('\r\n\r\n');
 
