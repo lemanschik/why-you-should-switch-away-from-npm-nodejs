@@ -195,6 +195,8 @@ here i spotted first time the issue when using nodejs compared to the operating 
 
 but i did not understood that i found there a problem and a general antipattern called easy and easy is not simple everything must be simple it is a core need to produce stable software that is self documented and understand able so fast fixable and fullfills our criterias.
 
+so i did not understood fully my self that this implementation that i did would be the more clever i tought it is a workaround. 
+but it is not as it is simple it uses the operating system via find to get a result directly with kernel optimization in a stream that pattern can be directly used in all other environments no matter how you call the module that implements that call it filesystem-lookup.js?=pattern or something like that this has zero context switching so again simple we do not touch the data we simple get our result in one turn and stream that.
 
 ## Size of the problem
 you can observer the problem here:
