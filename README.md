@@ -66,3 +66,11 @@ this teaches you how to keep you code simple so that you need no additional stuf
 
 ## The best code is the one that you did never write!
 It is simple but not easy again if you do not write code it has zero bugs in fact the only thing that a normal and even most senior coders can do with data is Ruin it so we simply stop doing that and get all the benefits out of the box.
+
+## What we aim for?
+- Zero Time to Deployment directly load and launch the software give us feedback if it does what it should do.
+- Zero Effort to change a code part to get a new version with added or less features even not loading the code twice that needs to get reused. 
+- Zero need for external Monitoring and logging services as also databases getting full instrumentation observation abilitys out of the box.
+- No External Servers or Software Providers needed to build and run our code. We can directly code and execute in dev and production.
+- No Need for a CDN in fact we can create our own cdn out of the users it self and only offer some additional entrypoints into the system.
+- No need for virtual networks and abstractions over networking secure networking by design fully audit and monitor able.
