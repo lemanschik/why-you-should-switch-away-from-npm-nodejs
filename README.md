@@ -47,4 +47,8 @@ the fundamentals of large scale processing are so called transactions applyed vi
 
 You can read about all this topics a lot of books but you do not need to if you simply folow me here and simply save in your head the above written maybe read it more then once to fully understand that as you got often told that this is not possible you maybe have blockers in your mind that tell you that this is not true and so you maybe not fully understand it.
 
-# when you fully understood until this point your ready to deprecate docker libcontainer kubernetes any distributed builds and also packaging you also learned that you need to database your application it self is the database. 
+# when you fully understood until this point your ready to deprecate docker libcontainer kubernetes any distributed builds and also packaging you also learned that you need no database your application it self is the database. 
+
+The title says it Databases are historical got designed to implement caching for slow spinning disks to speed up random reads and writes. So every Pub/Sub provider every cloud provider is simply only a abstraction and i need to point out a bad one as they are not simple... over the above fundamentals. 
+
+you will find a lot of articles all over the internet where people do replace databases via json it self on the filesystem for example to speed up development and also production speed. As that gave them also online caching like a cdn for the database querys. I will write a extra book about how to design a ECMAScript written Database but this is only about solving the packaging issues and shows you as much of the database knowlege to handle your build inside your distributed graph database that is in fact what your ECMAScript Engine is it offers a core implementation of btree but for Memory Pointers.
