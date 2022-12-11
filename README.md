@@ -41,6 +41,12 @@ NPM does solve 2 fundamental things in the NodeJS Fundamentals it supplys specif
 
 So lets sum up what we learned npm is a meta file for the nodejs loader if you use a other loader you do not need nodejs. npm is a file hosting service with a resolution pattern which can be expressiv written in a single line of ECMAScript Module code. 
 
+```js
+const mySoftware = import('/myUnifiedResolveMethod.js?id=mySoftware').then( resolvedId => import(resolvedId));
+```
+
+The above implements a so called universal modular resolve load instantiation hook the mother of all loaderHookks combined with the ecmascript engines abilitys to dynamic create link and throw away any context as also automated manage references via garbage collection this is the ultimate packaging system and weapon to make your builds and anything modular even your core git workflows are represent and express able  in that pattern directly without anything additional.
+
 ## So above showed us the main problem is we apply the wrong patterns to ECMAScript Module creation and design.
 Lets learn how to implement it in a way that it works everywhere with and without NodeJS in the middle. To Incremental move away from it.
 
