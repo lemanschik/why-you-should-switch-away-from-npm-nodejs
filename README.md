@@ -16,6 +16,8 @@ I identified overlapping replication all over we did ruin in fact software devel
 - [ ] https://nodejs.medium.com/call-to-action-accelerating-node-js-growth-e4862bee2919
 - [ ] Easy Solutions getting implemented all are claiming to solve the problem
   - [ ] Vite
+   - See how we create wrapper over wrapper this gets more and more complex
+     - https://github.com/originjs/vite-plugin-federation 
   - [ ] Svelt
   - [ ] React
   - [ ] lit-html
