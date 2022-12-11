@@ -49,6 +49,37 @@ export const myLoadedSoftware = rollup('mySoftware');
 
 The above implements a so called universal modular resolve load instantiation hook the mother of all loaderHookks combined with the ecmascript engines abilitys to dynamic create link and throw away any context as also automated manage references via garbage collection this is the ultimate packaging system and weapon to make your builds and anything modular even your core git workflows are represent and express able  in that pattern directly without anything additional.
 
+this is a full http server can be used in the browser or any where else socket represents any stream implementation that emits on data can be anything that emits buffer so UInt8Array that is true for any nativ implementations anyway. 
+http-including-json-post-support.js
+```
+socket.on('data',data=>{
+        const [requestHeader, ...bodyContent] = data.toString().split('\r\n\r\n');
+
+        const [firstLine, ...otherLines] = requestHeader.split('\n');
+        const [method, path, httpVersion] = firstLine.trim().split(' ');
+        const headers = Object.fromEntries(otherLines.filter(_=>_)
+            .map(line=>line.split(':').map(part=>part.trim()))
+            .map(([name, ...rest]) => [name, rest.join(' ')]));
+
+        var body;
+        try {
+            body = JSON.parse(bodyContent);
+        } catch(err){/* ignore */}
+
+
+        const request = {
+            method, 
+            path,
+            httpVersion,
+            headers,
+            body
+        };
+        console.log(request)
+        socket.write(`HTTP/1.1 200 OK\n\nhallo ${request.body.name}`)
+        socket.end((err)=>{console.log(err)})
+    });
+```
+
 ## So above showed us the main problem is we apply the wrong patterns to ECMAScript Module creation and design.
 Lets learn how to implement it in a way that it works everywhere with and without NodeJS in the middle. To Incremental move away from it.
 
