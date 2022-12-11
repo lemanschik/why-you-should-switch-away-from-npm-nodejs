@@ -33,6 +33,9 @@ I identified overlapping replication all over we did ruin in fact software devel
   - [ ] serverless and serverless functions
   - [ ] grpc proxys virtual networking all the network issues.
   - [ ] cloud providers and ci and devOps.
+  - [ ] States that not using yarn with esbuild is 10x faster again indicator for abstraction overhead.
+    - [ ] https://esbuild.github.io/getting-started/#yarn-pnp
+    - [ ] And no esbuild is also not simple it also is overhead.
   - [ ] .......
 
 So the conclusion is we all agree and see a problem what we do not agree on how to solve it and or we did not all together identfied the root cause so i did investigate.
