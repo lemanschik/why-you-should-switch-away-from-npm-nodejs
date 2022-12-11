@@ -39,6 +39,9 @@ I identified overlapping replication all over we did ruin in fact software devel
     - [ ] It is coded in go which adds the go vm wich is again not needed ECMAScript correct used outperforms go by 10x minimum!
   - [ ] .......
 
+
+i claim ECMAScript and the v8 vm outperforms everything do not take me by word see the benchmarks: https://www.techempower.com/benchmarks/#section=data-r21&test=composite the rank 1 is called just a Project that we will by the way build in this book it was one of the first PoC implementations of a simple v8 build using function templates. So as sayed do not take my word take the benchmark this is proven technology prove me wrong i am engineer i can take criticism. 
+
 So the conclusion is we all agree and see a problem what we do not agree on how to solve it and or we did not all together identfied the root cause so i did investigate.
 
 The conclusion is that the root cause is NPM and NodeJS which got created in a time as there was no Module System where all did agree on. That leads to a giant backslash of backward compat to nodejs and npm. And as NodeJS is not willing to Switch to ESModules the new Module System Exclusiv they are blocking the ecosystem thats why all the above tools do exist and why all the above issues are even there.
