@@ -26,7 +26,34 @@ The 10 Biggest pain points identified by our KI are:
 9. Unclear Licensing Terms
 10. Version Incompatibilities
 
-All 10 Above issues can get today resolved when you follow some simple patterns and i will keep repeating it till you pray it simple != easy.
+All 10 Above issues can get today resolved when you follow some simple patterns and i will keep repeating it till you pray it simple != easy. How ever even the KI does not know it all it proposes:
+
+how can i write better software in ECMAScript and not do the above mentioned failures. got asked to a KI.
+
+1. Research and Understand the Environment: Take the time to familiarize yourself with the ECMAScript language, its features, and its associated libraries.
+2. Use Semantic Versioning: Utilize semantic versioning to ensure your code maintains compatibility and is properly documented.
+3. Leverage Tools: Use existing tools such as linting and static analysis to help identify and eliminate errors in your code.
+4. Test and Validate: Write tests to verify the functionality and correctness of your code.
+5. **Broke not only the web NPM Broke the whole KI** 
+  - Leverage NPM Scripts: Utilize NPM scripts to automate common tasks and reduce the amount of manual work.
+6. Adhere to Standards: Follow coding standards and best practices to maintain consistent code quality.
+7. Monitor Dependencies: Keep an eye out for outdated or insecure dependencies and update them accordingly.
+8. Automate Builds: Automate builds to ensure a consistent and reliable product.
+9. Leverage Continuous Integration: Utilize continuous integration to ensure the quality of your code is maintained over time.
+10. Release Frequently: Regularly release updates to ensure users are benefiting from the most up-to-date version of your software
+
+
+correct solutions
+
+- We identifie fast it wants us to do versioning correct we mostly already did that in our git code via committing right? we depend on that while we code and audit the code why should the user not be able to do the same?
+- It suggest us to use linting and tools we do so in our IDE Already correct?
+- It says even when we asked for ECMAScript that we should use NPM Scripts thats the part where it is broken
+  - Why should some one use NPM when he runs ECMAScript NPM depends on a binary node deployment that is not usefull
+- It says adhear to standards but what standards? right they got not defined by any one else then me at last not fully public prove me wrong but to save time the KI can not prove me wrong......
+- Dependency monitoring is inherent into git already thats why we use it to author our code.
+- Build Automation is inherent in ECMAScript it is a JIT Lang with highly optimized caching and serialization capabilitys for binary data to reuse it.
+- CI is not needed as That is again inherent to ECMAScript it runs directly and gives feedback and we can attach always at runtime debbuging and instrumentation if we followed the correct authoring patterns.
+- Frequently releasing is done via ECMAScripts Rolling Release Nature inherent by default it is append only logging code state the concept of linear Persistent RAM. 
 
 ## First of all what are the alternativs?
 Usage of directly git and the git protocol is the key. It also saves you from bundling and packageing issues its all built in already. As the most people prefer easy over simple and the amount of developers exponential growth there is a gap between knowleg transfer from old expirenced to Young Coders or Coders that got teached by Coders that do not had time to care for the Bigger Picture. 
