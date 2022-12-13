@@ -13,6 +13,21 @@ as also management concepts like IAM services in clouds in a more user frindly w
 
 the above mentioned module counts when compared to all other languages shows that we created a gigantic mess we destroyed the web as also the whole development process via npm over git. 
 
+The 10 Biggest pain points identified by our KI are:
+
+1. Dependency Hell
+2. Unstable Dependencies
+3. Inconsistent Package Quality
+4. Unclear Module Versioning
+5. Unclear Versioning Policies
+6. Poor Security Practices
+7. Unsecure Packages
+8. Poor Documentation
+9. Unclear Licensing Terms
+10. Version Incompatibilities
+
+All 10 Above issues can get today resolved when you follow some simple patterns and i will keep repeating it till you pray it simple != easy.
+
 ## First of all what are the alternativs?
 Usage of directly git and the git protocol is the key. It also saves you from bundling and packageing issues its all built in already. As the most people prefer easy over simple and the amount of developers exponential growth there is a gap between knowleg transfer from old expirenced to Young Coders or Coders that got teached by Coders that do not had time to care for the Bigger Picture. 
 
