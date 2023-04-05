@@ -1,6 +1,15 @@
 # why-you-should-switch-away-from-npm-nodejs
 This is a Collection of NodeJS NPM Related Arguments against the usage of NodeJS and NPM as also offering better alternatives.
 
+## Solutions
+bundle what ever package.json produces and ship that with your code. import it from that bundle.
+for the transition a simple trick is to create so called ESM Packages this are packages that bundle sub packages into ESM
+then you can use that as dev dependencie. Alternativ you can use a loader that transpils to ESM that helps you to spot bugs in your code more easy
+
+
+
+
+
 ## Size of the problem
 you can observer the problem here:
 - http://www.modulecounts.com/
